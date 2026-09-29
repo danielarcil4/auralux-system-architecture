@@ -181,7 +181,23 @@ telemetry platform developed for the **ESP32-S3**.
   - **Audio Acquisition Node:** I2S MEMS Digital Microphone (INMP441) with hardware DMA sampling at 16 kHz / 24-bit.                                                                                                                              
   - **Power Subsystem:** 5V regulated rail with decoupling capacitors ($1000\mu\text{F}$ bulk + $0.1\mu\text{F}$ ceramic), high-speed level shifters (3.3V to 5.0V logic).                                                                        
                                                                                                                                                                                                                                                   
-  ---                                                                                                                                                                                                                                             
+  ---   
+
+  ## Companion Android App (Jetpack Compose)   
+
+https://github.com/user-attachments/assets/998c1e82-117e-412c-be9d-28bf99e592cb
+
+                                                                                                                                                                                                
+                                                                                                                                                                                                                                                    
+  The system includes a native Android client developed in **Kotlin** with **Jetpack Compose** and **Clean Architecture**:                                                                                                                        
+  - **Real-Time DSP Engine:** Extracts spectral band metrics and streams 16-byte UDP binary datagrams at 50 FPS.                                                                                                                                  
+  - **Device Management:** mDNS discovery, HTTP REST delta synchronization, and real-time color wheel control.                                                                                                                                    
+                                                                                                                                                                                                                                                  
+  <div align="center">                                                                                                                                                                                                                            
+    <img src="media/main_menu.png" width="30%" alt="Main Control Screen" style="border-radius: 10px; margin: 5px;" />                                                                                                                              
+    <img src="media/effects_page.png" width="30%" alt="VU Meter Configuration" style="border-radius: 10px; margin: 5px;" />                                                                                                                        
+    <img src="media/audio_page.png" width="30%" alt="Color Wheel & Palette" style="border-radius: 10px; margin: 5px;" />                                                                                                                           
+  </div> 
                                                                                                                                                                                                                                                   
   ## 👨‍💻 Engineer & Contact                                                                                                                                                                                                                        
                                                                                                                                                                                                                                                   
